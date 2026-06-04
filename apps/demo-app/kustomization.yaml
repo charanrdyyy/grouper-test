@@ -5,3 +5,8 @@ resources:
   - namespace.yaml
   - deployment.yaml
   - service.yaml
+
+images:
+  - name: demo-app
+    newName: grouperdevacr001.azurecr.io/demo-app
+    newTag: 29a81e1-r1
